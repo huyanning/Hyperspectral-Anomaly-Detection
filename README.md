@@ -1,4 +1,4 @@
-# Hyperspectral-Anomaly-Detection 
+# Hyperspectral Anomaly Detection 
 Paper and Code about my research on hyperpsectral anomaly detection 
 
 ### Introduction
@@ -47,7 +47,19 @@ The dataset was provided by the author of *"Anomaly detection in hyperspectral i
     publisher={IEEE}
     }
 The visualization of example dataset:
-![text] (https://github.com/huyanning/Hyperspectral-Anomaly-Detection/blob/master/datashow.png?raw=true)
-![text] (https://github.com/huyanning/Hyperspectral-Anomaly-Detection/blob/master/groundtruthshow.png?raw=true)
+!(https://github.com/huyanning/Hyperspectral-Anomaly-Detection/blob/master/datashow.png?raw=true)
+![(https://github.com/huyanning/Hyperspectral-Anomaly-Detection/blob/master/groundtruthshow.png?raw=true)
 
 ### Code detail
+- demo.py 
+An example, it can also be used directly as a test code.
+- HyperProTool.py
+Many basic operation in hyperspectral image processing, each function has its detail introduction. We also add some necessary codes which are used in our work in it.
+- dic_constr.py
+The code to achieve Background and Potential anomaly dictionaries construction.
+- LRSR.py
+The fuction of low rank and sparse representation using ALM.
+- ROC_AUC.py
+The fuction calculating ROC curves and AUC values.
+-result_show.py
+The function to visualize the experiment reuslts. 
