@@ -48,10 +48,15 @@ If you want to use that you can also cite
     year={2015},
     publisher={IEEE}
     }
+    
 The visualization of example dataset:
-(https://github.com/huyanning/Hyperspectral-Anomaly-Detection/blob/master/datashow.png?raw=true)
-(https://github.com/huyanning/Hyperspectral-Anomaly-Detection/blob/master/groundtruthshow.png?raw=true)
 
+1. False Color Image
+<img src="https://github.com/huyanning/Hyperspectral-Anomaly-Detection/blob/master/datashow.png?raw=true">
+
+2. Ground Truth
+<img src="https://github.com/huyanning/Hyperspectral-Anomaly-Detection/blob/master/groundtruthshow.png?raw=true">
+        
 ### Code detail
 1. demo.py 
 
