@@ -47,8 +47,8 @@ The dataset was provided by the author of *"Anomaly detection in hyperspectral i
     publisher={IEEE}
     }
 The visualization of example dataset:
-!(https://github.com/huyanning/Hyperspectral-Anomaly-Detection/blob/master/datashow.png?raw=true)
-![(https://github.com/huyanning/Hyperspectral-Anomaly-Detection/blob/master/groundtruthshow.png?raw=true)
+(https://github.com/huyanning/Hyperspectral-Anomaly-Detection/blob/master/datashow.png?raw=true)
+(https://github.com/huyanning/Hyperspectral-Anomaly-Detection/blob/master/groundtruthshow.png?raw=true)
 
 ### Code detail
 - demo.py 
