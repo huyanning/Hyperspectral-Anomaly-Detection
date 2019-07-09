@@ -6,7 +6,7 @@ This python code is about our work on hyperspectral anomaly detection named "Hyp
 ### Citing my paper:
 If you find this work useful in your research, please consider citing:
 
-···@article{huyan2018hyperspectral,
+  @article{huyan2018hyperspectral,
   title={Hyperspectral Anomaly Detection via Background and Potential Anomaly Dictionaries Construction},
   author={Huyan, Ning and Zhang, Xiangrong and Zhou, Huiyu and Jiao, Licheng},
   journal={IEEE Transactions on Geoscience and Remote Sensing},
@@ -15,11 +15,12 @@ If you find this work useful in your research, please consider citing:
   pages={2263--2276},
   year={2018},
   publisher={IEEE}
-}···
+}
+
 ### Contents
 1. [Requirements:](#Requirements)
-2. [Example Dataset:](#Example Dataset)
-3. [Code detail:](#Code detail)
+2. [Example Dataset:](#Example-Dataset)
+3. [Code detail:](#Code-detail)
 
 ### Requirements
 
