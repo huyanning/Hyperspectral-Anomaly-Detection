@@ -34,7 +34,9 @@ Please note that, the way importing dataset is different in different environmen
 - The code has been teseted in Windows 10 Intel(R) Core(TM) i7-7700 CPU
 
 ### Example Dataset
-The dataset was provided by the author of *"Anomaly detection in hyperspectral images based on low-rank and sparse representation"*. It was collected by the Airborne Visible/Infrared Imaging Spectrometer over San Diego, CA, USA (AVIRIS). The spatial resolution is 3.5m per pixel. It has 224 spectral bands in the wavelengths ranging from 370 to 2510 nm. If you want to use that you can also cite
+The dataset was provided by the author of *"Anomaly detection in hyperspectral images based on low-rank and sparse representation"*. It was collected by the Airborne Visible/Infrared Imaging Spectrometer over San Diego, CA, USA (AVIRIS). The spatial resolution is 3.5m per pixel. It has 224 spectral bands in the wavelengths ranging from 370 to 2510 nm. 
+
+If you want to use that you can also cite
 
     @article{xu2015anomaly,
     title={Anomaly detection in hyperspectral images based on low-rank and sparse representation},
@@ -51,15 +53,26 @@ The visualization of example dataset:
 (https://github.com/huyanning/Hyperspectral-Anomaly-Detection/blob/master/groundtruthshow.png?raw=true)
 
 ### Code detail
-- demo.py 
+1. demo.py 
+
 An example, it can also be used directly as a test code.
-- HyperProTool.py
+
+2. HyperProTool.py
+
 Many basic operation in hyperspectral image processing, each function has its detail introduction. We also add some necessary codes which are used in our work in it.
-- dic_constr.py
+
+3. dic_constr.py
+
 The code to achieve Background and Potential anomaly dictionaries construction.
-- LRSR.py
+
+4. LRSR.py
+
 The fuction of low rank and sparse representation using ALM.
-- ROC_AUC.py
+
+5. ROC_AUC.py
+
 The fuction calculating ROC curves and AUC values.
--result_show.py
+
+6. result_show.py
+
 The function to visualize the experiment reuslts. 
