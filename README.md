@@ -31,7 +31,7 @@ If you find this work useful in your research, please consider citing:
 - Python3 enviroment with Numpy and Scipy.
 - Available in both Windows and Linux.
 Please note that, the way importing dataset is different in different environment!
-- The code has been teseted in Windows 10 Intel(R) Core(TM) i7-7700 CPU
+- The code has been tested in Windows 10 Intel(R) Core(TM) i7-7700 CPU
 
 ### Example Dataset
 The dataset was provided by the author of *"Anomaly detection in hyperspectral images based on low-rank and sparse representation"*. It was collected by the Airborne Visible/Infrared Imaging Spectrometer over San Diego, CA, USA (AVIRIS). The spatial resolution is 3.5m per pixel. It has 224 spectral bands in the wavelengths ranging from 370 to 2510 nm. 
